@@ -1,0 +1,29 @@
+.notes {
+    padding: 50px 0;
+    
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &-checker {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: var(--primaryShadow);
+            border-radius: 5px;
+            padding: 8px 12px;
+        }
+    }
+    
+    &__cards {
+        margin-top: 20px;
+        display: grid;
+        gap: 30px;
+        
+        &.grid {
+            grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+        }
+    }
+}

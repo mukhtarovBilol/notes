@@ -1,0 +1,16 @@
+@import "fonts.scss";
+@import "root.scss";
+@import "common.scss";
+
+// layouts
+@import "@/layouts/header/header.scss";
+// layouts
+
+// views
+@import "@/views/notes/notesView.scss";
+// views
+
+// components
+@import "@/components/UI/card/card.scss";
+@import "@/components/UI/modal/modal.scss";
+// components

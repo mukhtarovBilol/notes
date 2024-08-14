@@ -1,0 +1,19 @@
+.header {
+    padding: 20px 0;
+    box-shadow: var(--secondaryShadow);
+    
+    &__title {
+        text-align: center;
+    }
+    
+    &__form {
+        text-align: center;
+        margin-top: 8px;
+        
+        &-input {
+            padding: 10px 15px;
+            box-shadow: var(--secondaryShadow), var(--primaryShadow);
+            border-radius: 5px;
+        }
+    }
+}

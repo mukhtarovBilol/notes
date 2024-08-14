@@ -1,0 +1,26 @@
+.card {
+    display: grid;
+    gap: 5px;
+    box-shadow: var(--secondaryShadow), var(--primaryShadow);
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    &__date {
+        color: #999;
+        font-size: 14px;
+    }
+    
+    &__controls {
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+    
+    &__edit, &__del {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+    }
+}

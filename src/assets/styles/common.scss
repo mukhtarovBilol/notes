@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+input, button, textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.popup {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    box-shadow: var(--secondaryShadow), var(--primaryShadow);
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+}
